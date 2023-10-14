@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto+Mono:wght@500&family=Rubik:ital,wght@0,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    
+    line-height: 1.6;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+#Search-input{
+    width: 60%;
+    max-width: 400px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+#search-button{
+    padding: 10px 20px;
+    background-color: #138065;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-inputs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search-input{
+    margin-bottom: 60px;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+.search-input img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+}
+.search-input:hover img{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.search-input a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    display: block;
+    text-transform: capitalize;
+}
+#show-more-button{
+    background-color: #008cba;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .search-inputs{
+        padding: 20px;
+    }
+    .search-input{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .search-input{
+        width: 100%;
+    }
+}
+
+
+
+
+    
+
+
